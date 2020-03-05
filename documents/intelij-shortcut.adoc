@@ -27,6 +27,57 @@
 | Initial Documents
 |====
 
+
+Install On Mac
+
+https://www.youtube.com/watch?v=eq3KiAH4IBI
+https://www.youtube.com/watch?v=yefmcX57Eyg&t=776s
+
+1. Installing Brew
+
+run on terminal
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+2. run brew command
+brew tap homebrew/cask-versions
+
+3. install open jdk
+
+brew tap adoptopenjdk/openjdk
+
+brew search jdk
+
+brew cask info adoptopenjdk8
+
+brew cask install adoptopenjdk8
+
+
+problem when installed openjdk8
+
+https://stackoverflow.com/questions/24342886/how-to-install-java-8-on-mac/55774255
+
+A quick workaround solution may to remove the adoptopenjdk/openjdk tap:
+
+brew untap adoptopenjdk/openjdk
+
+brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+
+brew update
+brew install git
+brew install git-gui
+
+JAVA HOME
+===========
+https://mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
+
+
+INSTALL MAVEN:
+===========
+https://mkyong.com/maven/install-maven-on-mac-osx/
+
+
+
+
 == Navigate
 
 Command+O -> search class
