@@ -1,0 +1,60 @@
+:imagesdir: adocImages
+:doctype:   article
+:encoding:  utf-8
+:lang:      en
+:toc:       left
+:toclevels: 5
+:toc-title: Table of Content
+:revdate:   Jan 22, 2020
+:copyright: QFPI, 2019
+:revnumber: V0.1
+:sectnums:
+:last-update-label!:
+:nofooter!:
+:media:     print
+:icons:  font
+:pagenums:
+
+= Effective Of Java
+[discrete]
+== Change Log
+
+[cols="20,20,60"]
+|====
+|Date|Author|Change
+
+| Jan 22, 2020 | Jonny
+| Initial Documents
+|====
+
+== Navigate
+
+Command+O -> search class
+
+Shift+Command+O -> search file
+
+Option+Command+O -> symbol lookup
+
+double shitf -> search all
+
+on command+O
+
+you can navigate the code line by put example Product:40
+it will go to line 40
+
+
+turn off you tab , you no need tab
+
+Command+E -> show recent opened file
+SHITF+Command+E -> show recent edited file
+
+Command+, -> Preference
+
+Command+N -> Generate constructor or getter setter
+
+
+== Control
+Control+I -> implements method
+
+Control+O -> Override method
+
