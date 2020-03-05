@@ -42,6 +42,26 @@ on command+O
 you can navigate the code line by put example Product:40
 it will go to line 40
 
+Command+O -> new class on project folder
+
+Control+Option+N -> new class on class editor
+
+Command+> or < -> resize windows
+
+Command+1 -> hide show project folder
+
+Command+E -> Jump between two edited file
+
+Command+Shift+E -> Recent edited file
+
+
+Command+] -> Jump Cursor forward
+
+Command+{ -> Jump Cursor backward
+
+Shift+Command+Delete - > Last edited line
+
+Shift+Command+N -> ScratchFile
 
 turn off you tab , you no need tab
 
@@ -52,9 +72,32 @@ Command+, -> Preference
 
 Command+N -> Generate constructor or getter setter
 
+To Move Code
+
+first select line by putting at the begining of line
+Command+<  and then Shift+option+UpArrow or DownArrow
 
 == Control
 Control+I -> implements method
 
 Control+O -> Override method
 
+Control+G -> hightlight selected text and can change it impacting all seleced text
+
+Control+Command+G -> select all higlighted text and can change in 1 shot
+
+
+Option+Command+L - > Format Code Identation entire class
+
+Inject Language, example you to write json string
+OPTION+Eenter -> inject language then enter and type JSON
+Then type OPTION+Enter again select JSON
+
+or you can select Regex and alt enter again to check regex value
+
+SHIFT+CONTROL+SPACE -> smart completion
+CONTROL+Space -> Completion
+
+completion using variabe
+
+ALT+/ -> eample you declare 3 string s1,s2,s3, when you type ALT+/ it will auto complete
