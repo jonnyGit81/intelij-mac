@@ -119,3 +119,17 @@ Command+Up -> show navigation bar
 Shift+F2 -> code inspections to check the error
 
 Ccontrol+ALT+O -> remove unwanted import
+
+
+Refactoring..
+
+Option+Command+V -> extract variable
+
+Option+Command+M -> refactor selected code to method
+
+Option+Command+P -> refactor to parameter
+
+
+Test..
+
+Shift+Command+T -> create test classes

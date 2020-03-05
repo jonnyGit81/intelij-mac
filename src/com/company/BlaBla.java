@@ -1,8 +1,6 @@
 package com.company;
 
-import java.io.IOException;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 public class BlaBla {
     private String s1;
@@ -24,6 +22,11 @@ public class BlaBla {
         t3.start();
         t4.start();
 
+        perintMessage("abc asdhjasd asdasd");
+    }
+
+    static void perintMessage(String message) {
+        System.out.println(message);
     }
 
     void print() {
@@ -34,8 +37,8 @@ public class BlaBla {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(localContext.get());
-        System.out.println(Thread.currentThread().getName());
+        perintMessage(localContext.get());
+        perintMessage(Thread.currentThread().getName());
 
     }
 }
