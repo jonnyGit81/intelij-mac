@@ -101,3 +101,21 @@ CONTROL+Space -> Completion
 completion using variabe
 
 ALT+/ -> eample you declare 3 string s1,s2,s3, when you type ALT+/ it will auto complete
+
+
+Alt+Command+T - > Surround code
+
+SHITF+COMMAND+ENTER -> auto ; statement code or you type if(person == null) then ShiftCommandEnter it auto create bracket
+
+COMMAND+D -> duplicate line
+
+HTML Code completion
+#myDiv>ul>li*5 then tab -> this will generated 5 li inside div
+
+Command+F12 -> showing all class method
+
+Command+Up -> show navigation bar
+
+Shift+F2 -> code inspections to check the error
+
+Ccontrol+ALT+O -> remove unwanted import

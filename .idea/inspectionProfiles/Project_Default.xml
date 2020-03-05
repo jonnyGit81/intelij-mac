@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="EmptyClass" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignorableAnnotations">
+        <value />
+      </option>
+      <option name="ignoreClassWithParameterization" value="false" />
+      <option name="ignoreThrowables" value="true" />
+      <option name="commentsAreContent" value="true" />
+    </inspection_tool>
+    <inspection_tool class="FieldAccessedSynchronizedAndUnsynchronized" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="countGettersAndSetters" value="false" />
+    </inspection_tool>
+    <inspection_tool class="MapReplaceableByEnumMap" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SSBasedInspection" enabled="false" level="ERROR" enabled_by_default="false">
+      <searchConfiguration name="search_empty_catch" text="try {&#10;  $TryStatement$;&#10;} catch($ExceptionType$ $Exception$) {&#10;  $CatchStatement$;&#10;}" recursive="true" caseInsensitive="true" type="JAVA" pattern_context="default">
+        <constraint name="__context__" within="" contains="" />
+        <constraint name="TryStatement" maxCount="2147483647" within="" contains="" />
+        <constraint name="ExceptionType" within="" contains="" />
+        <constraint name="Exception" within="" contains="" />
+        <constraint name="CatchStatement" minCount="0" maxCount="2147483647" within="" contains="" />
+      </searchConfiguration>
+    </inspection_tool>
+    <inspection_tool class="SetReplaceableByEnumSet" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
